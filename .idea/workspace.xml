@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbc27df1-32ca-4360-a7f1-79413f707ba9" name="Default Changelist" comment="" />
+    <list default="true" id="bbc27df1-32ca-4360-a7f1-79413f707ba9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +21,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Development\Kotlin\KotlinPrograming\Sandbox\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1VY2ZyPXr7Rim3aLZdKlsN2Zxe7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../UdemyCourses/MasterMicroservices/restful-webservices" />
@@ -126,11 +138,26 @@
       <workItem from="1577659675782" duration="857000" />
       <workItem from="1577728629520" duration="988000" />
       <workItem from="1577906384065" duration="2000" />
+      <workItem from="1577906391053" duration="223000" />
     </task>
+    <task id="LOCAL-00001" summary="10 list and sets">
+      <created>1577906596275</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577906596275</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="10 list and sets" />
+    <option name="LAST_COMMIT_MESSAGE" value="10 list and sets" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1913" y="523" key="#Project_Structure" timestamp="1577415797165">
@@ -141,6 +168,10 @@
       <screen x="0" y="0" width="3840" height="1560" />
     </state>
     <state x="1775" y="520" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3840.1560@0.0.3840.1560" timestamp="1577416265454" />
+    <state x="2066" y="510" key="CommitChangelistDialog2" timestamp="1577906595830">
+      <screen x="0" y="0" width="3440" height="1560" />
+    </state>
+    <state x="2066" y="510" key="CommitChangelistDialog2/0.0.3440.1560@0.0.3440.1560" timestamp="1577906595830" />
     <state width="1479" height="279" key="GridCell.Tab.0.bottom" timestamp="1577574651299">
       <screen x="0" y="0" width="3440" height="1560" />
     </state>
@@ -166,6 +197,10 @@
     </state>
     <state x="1632" y="507" key="SettingsEditor/0.0.3440.1560@0.0.3440.1560" timestamp="1577562055261" />
     <state x="1822" y="507" key="SettingsEditor/0.0.3840.1560@0.0.3840.1560" timestamp="1577484866388" />
+    <state x="2045" y="649" key="Vcs.Push.Dialog.v2" timestamp="1577906600241">
+      <screen x="0" y="0" width="3440" height="1560" />
+    </state>
+    <state x="2045" y="649" key="Vcs.Push.Dialog.v2/0.0.3440.1560@0.0.3440.1560" timestamp="1577906600241" />
     <state x="1984" y="535" width="672" height="678" key="search.everywhere.popup" timestamp="1577486074352">
       <screen x="0" y="0" width="3840" height="1560" />
     </state>
