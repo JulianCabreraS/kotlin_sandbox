@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbc27df1-32ca-4360-a7f1-79413f707ba9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Extensions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Variance.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -29,7 +33,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1VY2ZyPXr7Rim3aLZdKlsN2Zxe7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -40,13 +46,31 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../UdemyCourses/MasterMicroservices/restful-webservices" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
-  <component name="RunManager" selected="Kotlin.FunctionAsTypeKt">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development\Kotlin\kotlin_sandbox\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.ExtensionsKt">
+    <configuration name="ExtensionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Sandbox" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ExtensionsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FunctionAsTypeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Sandbox" />
       <option name="VM_PARAMETERS" />
@@ -101,6 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ExtensionsKt" />
         <item itemvalue="Kotlin.FunctionAsTypeKt" />
         <item itemvalue="Kotlin.SimVillageKt" />
         <item itemvalue="Kotlin.TypeIntroKt" />
@@ -139,6 +164,8 @@
       <workItem from="1577728629520" duration="988000" />
       <workItem from="1577906384065" duration="2000" />
       <workItem from="1577906391053" duration="223000" />
+      <workItem from="1578346866462" duration="1833000" />
+      <workItem from="1578413575336" duration="9822000" />
     </task>
     <task id="LOCAL-00001" summary="10 list and sets">
       <created>1577906596275</created>
@@ -172,24 +199,28 @@
       <screen x="0" y="0" width="3440" height="1560" />
     </state>
     <state x="2066" y="510" key="CommitChangelistDialog2/0.0.3440.1560@0.0.3440.1560" timestamp="1577906595830" />
-    <state width="1479" height="279" key="GridCell.Tab.0.bottom" timestamp="1577574651299">
-      <screen x="0" y="0" width="3440" height="1560" />
+    <state width="1674" height="233" key="GridCell.Tab.0.bottom" timestamp="1578434470516">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
+    <state width="1674" height="233" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1578434470516" />
     <state width="1479" height="279" key="GridCell.Tab.0.bottom/0.0.3440.1560@0.0.3440.1560" timestamp="1577574651299" />
     <state width="739" height="321" key="GridCell.Tab.0.bottom/0.0.3840.1560@0.0.3840.1560" timestamp="1577486001643" />
-    <state width="1479" height="279" key="GridCell.Tab.0.center" timestamp="1577574651299">
-      <screen x="0" y="0" width="3440" height="1560" />
+    <state width="1674" height="233" key="GridCell.Tab.0.center" timestamp="1578434470516">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
+    <state width="1674" height="233" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1578434470516" />
     <state width="1479" height="279" key="GridCell.Tab.0.center/0.0.3440.1560@0.0.3440.1560" timestamp="1577574651299" />
     <state width="739" height="321" key="GridCell.Tab.0.center/0.0.3840.1560@0.0.3840.1560" timestamp="1577486001643" />
-    <state width="1479" height="279" key="GridCell.Tab.0.left" timestamp="1577574651299">
-      <screen x="0" y="0" width="3440" height="1560" />
+    <state width="1674" height="233" key="GridCell.Tab.0.left" timestamp="1578434470516">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
+    <state width="1674" height="233" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1578434470516" />
     <state width="1479" height="279" key="GridCell.Tab.0.left/0.0.3440.1560@0.0.3440.1560" timestamp="1577574651299" />
     <state width="739" height="321" key="GridCell.Tab.0.left/0.0.3840.1560@0.0.3840.1560" timestamp="1577486001643" />
-    <state width="1479" height="279" key="GridCell.Tab.0.right" timestamp="1577574651299">
-      <screen x="0" y="0" width="3440" height="1560" />
+    <state width="1674" height="233" key="GridCell.Tab.0.right" timestamp="1578434470516">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
+    <state width="1674" height="233" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1578434470516" />
     <state width="1479" height="279" key="GridCell.Tab.0.right/0.0.3440.1560@0.0.3440.1560" timestamp="1577574651299" />
     <state width="739" height="321" key="GridCell.Tab.0.right/0.0.3840.1560@0.0.3840.1560" timestamp="1577486001643" />
     <state x="1632" y="507" key="SettingsEditor" timestamp="1577562055261">
